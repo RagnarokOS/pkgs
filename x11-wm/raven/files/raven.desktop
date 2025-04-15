@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=raven
+Comment=dynamic window manager
+Exec=/etc/X11/Sessions/raven
+TryExec=raven
+Icon=
+Type=Application

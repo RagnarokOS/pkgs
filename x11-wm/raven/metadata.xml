@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>I-LeCorbeau@protonmail.com</email>
+		<name>Ian LeCorbeau</name>
+	</maintainer>
+	<longdescription>
+		Raven is a dynamic window manager for X, forked from Suckless' dwm.
+		It manages windows in tiling and floating modes. Either mode can be
+		applied dynamically, optimizing the environment for the application
+		in use and the task performed.
+	</longdescription>
+</pkgmetadata>

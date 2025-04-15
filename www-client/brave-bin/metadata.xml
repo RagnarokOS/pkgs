@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>I-LeCorbeau@protonmail.com</email>
+		<name>Ian LeCorbeau</name>
+		<description>Brave bin for the Ragnarok project</description>
+	</maintainer>
+</pkgmetadata>
