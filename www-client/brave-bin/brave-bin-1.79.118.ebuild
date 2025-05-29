@@ -121,9 +121,11 @@ src_install() (
 pkg_postinst() {
 	xdg_desktop_database_update
 	xdg_mimeinfo_database_update
+	xdg_incon_chache_update
 }
 
 pkg_postrm() {
 	xdg_desktop_database_update
 	xdg_mimeinfo_database_update
+	xdg_incon_chache_update
 }
