@@ -12,6 +12,9 @@ S=${WORKDIR}
 SLOT="0"
 KEYWORDS="amd64"
 
+# Do not strip, this removes the modules signatures.
+RESTRICT="strip"
+
 # Fetch gentoo-sources first.
 DEPEND="~sys-kernel/gentoo-sources-${PVR}"
 RDEPEND="${DEPEND}"
@@ -50,6 +53,8 @@ src_install() (
 )
 
 pkg_postinst() {
+	(cd /boot && for _f in config System.map vmlinuz; do mv ${_f} ${_f}.old; done)
+
 	elog "The Ragnarok kernel has been installed."
 	elog "Don't forget to generate a new initramfs with"
 	elog "the 'dracut --kver=${PVR}-ragnarok' command"
