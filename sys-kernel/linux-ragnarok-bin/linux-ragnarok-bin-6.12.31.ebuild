@@ -52,9 +52,12 @@ src_install() (
 		newins boot/config-${PVR}-ragnarok .config
 )
 
-pkg_postinst() {
+pkg_preinst() {
+	# Move old symlinks.
 	(cd /boot && for _f in config System.map vmlinuz; do mv ${_f} ${_f}.old; done)
+}
 
+pkg_postinst() {
 	elog "The Ragnarok kernel has been installed."
 	elog "Don't forget to generate a new initramfs with"
 	elog "the 'dracut --kver=${PVR}-ragnarok' command"
