@@ -17,7 +17,7 @@ DEPEND="~sys-kernel/gentoo-sources-${PVR}"
 RDEPEND="${DEPEND}"
 BDEPEND="
 		app-alternatives/bc
-		app-alternatives/flex
+		sys-devel/flex
 		virtual/libelf
 		app-alternatives/yacc
 "
