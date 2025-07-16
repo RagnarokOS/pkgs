@@ -11,6 +11,8 @@ LICENSE="ISC"
 SLOT="0"
 KEYWORDS="~amd64"
 
+S="${WORKDIR}"
+
 DEPEND="
 	app-shells/oksh
 	dev-perl/List-Compare
