@@ -5,7 +5,7 @@ EAPI=8
 
 DESCRIPTION="Package handling scripts for Ragnarok"
 HOMEPAGE="https://github.com/RagnarokOS/ragnarok-pkgscripts"
-SRC_URI="https://github.com/RagnarokOS/ragnarok-pkgscripts/releases/downloads/${PVR}/ragnarok-pkgscripts-${PVR}.tgz"
+SRC_URI="https://github.com/RagnarokOS/ragnarok-pkgscripts/releases/download/${PVR}/ragnarok-pkgscripts-${PVR}.tgz"
 
 LICENSE="ISC"
 SLOT="0"
