@@ -9,7 +9,7 @@ SRC_URI="https://github.com/RagnarokOS/ragnarok-pkgscripts/releases/downloads/${
 
 LICENSE="ISC"
 SLOT="0"
-KEYWORDS="amd64"
+KEYWORDS="~amd64"
 
 DEPEND="
 	app-shells/oksh
