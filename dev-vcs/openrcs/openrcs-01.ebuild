@@ -8,9 +8,9 @@ LICENSE="public-domain ISC BSD"
 SLOT="0"
 KEYWORDS="amd64"
 
-DEPEND="
-	dev-util/oyacc
-"
+BDEPEND="dev-libs/libopenbsd
+		dev-util/oyacc"
+DEPEND="${DEPEND}"
 RDEPEND="
 	${DEPEND}
 	!dev-vcs/rcs
